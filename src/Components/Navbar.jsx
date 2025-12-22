@@ -1,0 +1,19 @@
+
+function NavBar(){
+    return (
+        <div className="navbar w-full h-13 flex justify-around items-center border">
+            <div className="logo w-18 ">Blog App</div>
+            <div className="navbar-items w-80">
+                <ul className=" flex justify-around items-center ">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <button className="post-btn bg-blue-300 w-23 h-8 px-5 py-2 rounded-2xl text-center">Add Post</button>
+                </ul>
+            </div>
+        </div>
+    )
+}
+
+
+export default NavBar;

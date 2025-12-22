@@ -1,0 +1,28 @@
+<div class="layout h-screen w-screen bg-amber-50 flex flex-col gap-6">
+
+
+  <!-- Navbar -->
+    <div class="nav flex justify-around py-4 border border-stone-900 ">
+      <div class="logo w-50 text-gray-950 hover:text-gray-600">
+        LOGO
+      </div>
+      
+      <span class="nav-items ">
+        <ul class="flex justify-center items-center gap-6">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Report</a></li>
+        </ul>
+      </span>
+    </div>
+
+    <div class="items flex flex-col  items-center gap-5 bg-gradient-to-r from-blue-50 via-red-50 to-slate-50 ">
+      <span class="item">item1</span>
+      <span class="item">item2</span>
+      <span class="item">item3</span>
+      <span class="item">item4</span>
+      <span class="item">item5</span>
+    </div>
+
+</div>
