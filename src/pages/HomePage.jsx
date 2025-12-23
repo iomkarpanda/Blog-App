@@ -1,17 +1,20 @@
 
 import NavBar from "../Components/Navbar";
 import BlogCard from "../Components/BlogCard";
-
+import Footer from "../Components/Footer";
+import LandingPage from "./LandingPage";
 
 function HomePage(){
     return(
-        <div className="min-h-screen bg-white-50 flex flex-col gap-10">
+        <div className="min-h-screen flex flex-col justify-start items-center ">
             <NavBar />
-                <div className="flex flex-col gap-6 items-center">
-                    <BlogCard title="Sample Blog 1" description="This is a sample blog post about interesting topics." />
-                    <BlogCard title="Sample Blog 2" description="Another sample blog post with engaging content." />
-                    <BlogCard title="Sample Blog 3" description="More sample content to showcase our blog." />
-                </div>
+            <div className="container min-h-screen w-175 px-6 py-8 flex flex-col gap-2 items-center justify-start">
+                <BlogCard/>
+                <BlogCard/>
+                <BlogCard/>
+                <BlogCard/>
+            </div>
+            <Footer/>
         </div>
     )
 }
