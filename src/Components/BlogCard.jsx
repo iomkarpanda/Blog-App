@@ -1,12 +1,26 @@
+function BlogCard() {
+  return (
+    <div
+      className="
+        border border-slate-900/10 shadow-sm rounded-2xl
+        w-full max-w-sm lg:max-w-lg
+        px-4 py-3
+        flex flex-col gap-2
+        text-sm
+      "
+    >
+      <h3 className="font-semibold text-base">
+        Sample Blog
+      </h3>
 
-function BlogCard(){
-  return(
-    <div className="blog-container border w-[50vw] xl:w-[40vw] border-slate-900/10 shadow-sm rounded-2xl px-2 py-2 flex flex-col gap-2 ">
-          <h3 className="px-2 font-semibold">Sample Blog</h3>
-          <p className="px-2 text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta consequuntur officia, nobis, doloremque dolore magni quos non exercitationem id accusantium sint, aliquid vero quisquam voluptas. Amet modi in quas nisi!</p>
+      <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+        consequuntur officia, nobis, doloremque dolore magni quos non
+        exercitationem id accusantium sint, aliquid vero quisquam voluptas.
+        Amet modi in quas nisi!
+      </p>
     </div>
-  )
+  );
 }
-
 
 export default BlogCard;

@@ -1,0 +1,42 @@
+
+.codex-editor {
+  max-width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  padding-top: 3;
+  /* background-color: red; */
+}
+
+/* Content area */
+.codex-editor__redactor {
+  padding: 40px 20px;
+  /* background-color: aliceblue; */
+}
+
+/* Block spacing */
+.ce-block {
+  margin-bottom: 16px;
+}
+
+/* Paragraph text */
+.ce-paragraph {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #1f2937;
+}
+
+/* Headers */
+.ce-header {
+  font-weight: 700;
+  margin: 24px 0 12px;
+}
+
+/* Toolbar visibility */
+.ce-toolbar__content {
+  max-width: 720px;
+}
+
+/* Hide ugly outlines */
+.ce-block--focused {
+  background: transparent;
+}
