@@ -8,7 +8,7 @@ function Footer(){
             <div className="media-links flex flex-row gap-2">
                 <a href="https://x.com/imomkarpanda"><img src={xLogo} alt="X(twitter)" className="w-6 h-6"/></a>
                 <a href="https://github.com/iomkarpanda"><img src={gitLogo} alt="Github" className="w-6 h-6"/></a>
-                <a href="https://x.com/imomkarpanda"><img src={linkedinLogo} alt="LinkedIn" className="w-6 h-6"/></a>
+                <a href="https://linkedin.com/in/omkarpanda39"><img src={linkedinLogo} alt="LinkedIn" className="w-6 h-6"/></a>
             </div>
         </div>
     )

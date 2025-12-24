@@ -1,24 +1,25 @@
-import React from "react";
 import NavBar from "../Components/Navbar";
-import Footer from "../Components/Footer";
-
+import { useEffect } from "react";
 
 function LandingPage(){
+    useEffect(() => {
+    document.title = "Welcome";
+  }, []);
+  
     return(
         <>
             <NavBar/>
-            <div className="hero h-175 w-full flex flex-col justify-center items-center gap-4 bg-linear-to-b from-amber-100 to-purple-100">
-                
+            <div className="hero min-h-screen w-full flex flex-col relative justify-center items-center gap-4 bg-linear-to-b from-amber-100 to-purple-100">
+                <div className="pattern absolute inset-0 bg-[linear-gradient(to_right,rgba(71,85,105,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(71,85,105,0.1)_1px,transparent_1px)] bg-size-[32px_32px] z-0"></div>
                 <h1 className="text-4xl pb-5 font-bold bg-linear-to-r from-slate-900 to-slate-500
-               bg-clip-text text-transparent">Where Ideas Become Clear, Not Noisy</h1>
-                <h3 className="text-2xl">A distraction-free blogging platform for developers, thinkers, and creators who care about clarity over clicks.</h3>
-                <p>Write, read, and explore deeply — without algorithms, ads, or artificial hype.</p>
-                <div className="button-items w-150 flex justify-center gap-4">
-                    <button className="border border-slate-400/30 w-34 py-2 bg-amber-100 rounded-3xl">Start Writing</button>
-                    <button className="border border-slate-400/30 w-34 py-2 bg-amber-100 rounded-3xl">Explore Blogs</button>
+               bg-clip-text text-transparent z-10">Where Ideas Become Clear, Not Noisy</h1>
+                <h3 className="text-2xl z-10">A distraction-free blogging platform for developers, thinkers, and creators who care about clarity over clicks.</h3>
+                <p className="z-10">Write, read, and explore deeply — without algorithms, ads, or artificial hype.</p>
+                <div className="button-items w-150 flex justify-center gap-4 z-10">
+                    <button className="border border-slate-400/30 w-34 py-2 bg-amber-100 rounded-3xl ">Start Writing</button>
+                    <button className="border border-slate-400/30 w-34 py-2 bg-amber-100 rounded-3xl ">Explore Blogs</button>
                 </div>
             </div>
-            <Footer/>
         </>
     )
 }
