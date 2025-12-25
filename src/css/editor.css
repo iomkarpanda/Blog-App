@@ -4,13 +4,13 @@
   height: 80%;
   margin: 0 auto;
   padding-top: 3;
-  /* background-color: red; */
+  background-color: red;
 }
 
 /* Content area */
 .codex-editor__redactor {
   padding: 40px 20px;
-  /* background-color: aliceblue; */
+  
 }
 
 /* Block spacing */

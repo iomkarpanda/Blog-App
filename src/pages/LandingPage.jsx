@@ -8,7 +8,6 @@ function LandingPage(){
   
     return(
         <>
-            <NavBar/>
             <div className="hero min-h-screen w-full flex flex-col relative justify-center items-center gap-4 bg-linear-to-b from-amber-100 to-purple-100">
 
                 <div className="pattern absolute inset-0 z-0
